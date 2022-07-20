@@ -1,14 +1,25 @@
 /*
- *	Davicom DM9601 USB 2.0 Ethernet Driver.
- *  Copyright (c) 2020 Jay Lux Ferro <jayluxferro@sperixlabs.org>
- *	Copyright (c) 2013 Samuel Vinson <samuelv0304@gmail.com>
- *	Copyright (c) 2008, 2011 Siarzhuk Zharski <imker@gmx.li>
- *	Copyright (c) 2009 Adrien Destugues <pulkomandy@gmail.com>
- *	Distributed under the terms of the MIT license.
+ *  CYUSB3610 EZ-USB GX3 / CYUSB3610 M1 Mac Driver
+ *
+ *  Based loosely on the Davicom DM9601 USB 2.0 Ethernet Driver.
+ *  Copyright (c) 2022 Joe Gorse <jhgorse@gmail.com>
+ *	Distributed under the terms of the BSD 2 clause license.
  */
 
-#ifndef USBCDCEthernet_DM9601_h
-#define USBCDCEthernet_DM9601_h
+// TODO: CYUSB3610 / EZ Gx3
+
+//
+// Develop your driver with DriverKit and NetworkingDriverKit.
+// NetworkingDriverKit extends DriverKit.
+// Use USBDriverKit to manage the connection to your hardware device.
+// subclass IOService in the DriverKit framework.
+//
+// Include your driver inside your macOS app and
+//  use the System Extensions framework to install and upgrade the driver
+
+
+#ifndef USBCDCEthernet_CYUSB3610_h
+#define USBCDCEthernet_CYUSB3610_h
 
 // Vendor Requests
 

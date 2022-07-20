@@ -76,7 +76,7 @@
  */
 
 #include "USBCDCEthernet.h"
-#include "DM9601.h"
+#include "CYUSB3610.h"
 
 #define MIN_BAUD (50 << 1)
 
