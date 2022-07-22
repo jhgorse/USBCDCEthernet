@@ -35,9 +35,9 @@
 			<key>IOProviderClass</key>
 			<string>IOUSBDevice</string>
 			<key>idProduct</key>
-			<integer>38656</integer>
+			<integer>13840</integer>
 			<key>idVendor</key>
-			<integer>4070</integer>
+			<integer>1204</integer>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
