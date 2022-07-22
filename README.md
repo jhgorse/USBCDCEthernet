@@ -1,6 +1,13 @@
 USBCDCEthernet
 ==============
 
+DEPRECATED: Solved by Infineon ->
+https://community.infineon.com/t5/USB-superspeed-peripherals/EZ-USB-GX3-CYUSB3610-M1-Mac-Drivers/m-p/360709#M31543
+
+WIP: The CYUSB3610 internals have not been inserted into the `init` and `start` driver methods yet.
+This project is the scaffolding starting from a working kext for another hardware on top of 
+the Apple USBCDCEthernet example.
+
 This implements a driver for the USB-Ethernet adapter based on EZ-USB GX3 / CYUSB3610 on macOS 12+ M1, such as CalDigit's `USB-C Dock` ethernet:
 
 ```
